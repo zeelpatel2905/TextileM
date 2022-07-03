@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "406967634561",
+    "firebase_url": "https://textile-management-application-default-rtdb.firebaseio.com",
+    "project_id": "textile-management-application",
+    "storage_bucket": "textile-management-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406967634561:android:5aba4e250ccbb575f45b80",
+        "android_client_info": {
+          "package_name": "com.example.tma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406967634561-os1m6v1fvgkqoaspv3drfpt8bethg6vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKRZY47hEF7KUblNV-Z__AdaluEVm_Vic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406967634561-os1m6v1fvgkqoaspv3drfpt8bethg6vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

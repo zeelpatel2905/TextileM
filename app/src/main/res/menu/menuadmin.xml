@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnAHome"
+        android:icon="@drawable/ic_menu"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnASupervisors"
+        android:title="Supervisors" />
+    <item
+        android:id="@+id/mnAWorkers"
+        android:title="Workers" />
+    <item
+        android:id="@+id/mnAProduction"
+        android:title="Production" />
+    <item
+        android:id="@+id/mnARawMaterial"
+        android:title="Raw Material" />
+    <item
+        android:id="@+id/mnALogout"
+        android:title="Logout" />
+</menu>

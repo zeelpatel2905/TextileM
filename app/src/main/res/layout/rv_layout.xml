@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerName"
+        android:text="Worker Name"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerPhoneNo"
+        android:text="Worker Phone No"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerType"
+        android:text="Worker Type"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerJoinDatee"
+        android:text="Woker Join Date"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerTotalAttendance"
+        android:text="Woker Total Attendance"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerDW"
+        android:text="Daily Wages"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/TvWorkerTotalSalary"
+        android:text="Woker Total Salary"/>
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:layout_marginTop="-105dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/Cb_absent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent"/>
+
+</LinearLayout>

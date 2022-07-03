@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tma">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <activity
+            android:name=".SupervisorWorker1"
+            android:exported="true" />
+        <activity
+            android:name=".EditWorker"
+            android:exported="true" />
+        <activity
+            android:name=".AddWorkerProduction"
+            android:exported="true" />
+        <activity
+            android:name=".AdminRawMaterial"
+            android:exported="true" />
+        <activity
+            android:name=".AddRawMaterial"
+            android:exported="true" />
+        <activity
+            android:name=".AddProduction"
+            android:exported="true" />
+        <activity
+            android:name=".AdminReports"
+            android:exported="true" />
+        <activity
+            android:name=".AdminProduction"
+            android:exported="true" />
+        <activity
+            android:name=".AdminWorker"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSupervisor"
+            android:exported="true" />
+        <activity
+            android:name=".SupervisorRawMaterial"
+            android:exported="true" />
+        <activity
+            android:name=".SupervisorProduction"
+            android:exported="true" />
+        <activity
+            android:name=".AddWorker"
+            android:exported="true" />
+        <activity
+            android:name=".SupervisorWorker"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".SupervisorHome"
+            android:exported="true" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
